@@ -1,4 +1,4 @@
-##coded by SegentThomasKelly for a school project
+##coded by SergentThomasKelly for a school project
 #started the 24th November 2017, at 09:29 am
 #first version finished the 25th of November 2017 at 9:33 PM
 
