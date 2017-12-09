@@ -19,13 +19,13 @@ def getVars():
     ThePixelLeft=int(PixelLeft.get())
     TheWatermark=str(WatermarkText.get())
     root.fileopen = askopenfilename(defaultextension=".png", parent=root,
-            title="Choose a file to open...", filetypes=[("PNG","*.png")])
+                title="Choose a file to open...", filetypes=[("PNG","*.png")])
     if int(TheSizePolice) >= 10 and int(TheSizePolice) <= 150:
         root.filesave = asksaveasfilename(defaultextension=".png",
                 parent=root, title="Where to save this ?", filetypes=[("PNG","*.png")])
         coreOfTheProgramm(TheSizePolice, TheWatermark, ThePixelTop, ThePixelLeft)
     else:
-        tkinter.messagebox.showerror("Something went wrong", "We told you to set the police size between 10 and 150 !\n Try again...")
+        tkinter.messagebox.showerror("Something went wrong", "We told you to set the police size between 10 and 150 !\nTry again...")
         root.destroy()
 
 #>>> PROGRAMM'S CORE <<<
