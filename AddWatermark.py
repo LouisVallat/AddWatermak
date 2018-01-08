@@ -147,8 +147,8 @@ def start():
                 tickinterval=10, length=390, label='Opacity (%)',
                 command=updateTransparency, bg='lavender').pack()
     RotationScale= Scale(root, orient='horizontal', from_=0, to=360, resolution=1,
-            tickinterval=45, length=390, label='Rotation angle',
-            command=updateRotation, bg='lavender').pack()
+                tickinterval=45, length=390, label='Rotation angle',
+                command=updateRotation, bg='lavender').pack()
     saveme=IntVar()
     toSaveOrNotToSave= Checkbutton (root, text='Save the watermark file', variable=saveme, bg='lavender').pack()
     buttonContinue= Button(root, text="START", command=getVars, bg= 'chartreuse').pack(side=RIGHT, padx=50, pady=5)
